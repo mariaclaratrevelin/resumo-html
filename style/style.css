@@ -20,3 +20,36 @@
 .texto-tres{
     font-family: 'Matcha Style';
 }
+
+nav ul{
+    list-style: none;
+    height: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    margin: 5px;
+    background-color: rgb(199, 199, 255);
+    padding: 5px;
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#menu-lista{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#lista-menu:hover #menu-lista{
+    height: 600px;
+    width: 100vh;
+}
